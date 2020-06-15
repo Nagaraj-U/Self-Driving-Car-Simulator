@@ -194,7 +194,7 @@ class MyPaintWidget(Widget):
             last_x = x
             last_y = y
 
-# Adding the API Buttons (clear, save and load)
+#  Adding the API Buttons (clear, save and load)
 
 class CarApp(App):
 

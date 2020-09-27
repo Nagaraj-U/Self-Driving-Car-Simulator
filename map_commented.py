@@ -48,7 +48,7 @@ def init():
 # Initializing the last distance
 last_distance = 0
 
-# Creating the car class (to understand "NumericProperty" and "ReferenceListProperty", see kivy tutorials: https://kivy.org/docs/tutorials/pong.html)
+
 
 class Car(Widget):
 
@@ -87,14 +87,14 @@ class Car(Widget):
         if self.sensor3_x > longueur-10 or self.sensor3_x<10 or self.sensor3_y>largeur-10 or self.sensor3_y<10: # if sensor 3 is out of the map (the car is facing one edge of the map)
             self.signal3 = 1. # sensor 3 detects full sand
 
-class Ball1(Widget): # sensor 1 (see kivy tutorials: kivy https://kivy.org/docs/tutorials/pong.html)
+class Ball1(Widget): # sensor 1 
     pass
-class Ball2(Widget): # sensor 2 (see kivy tutorials: kivy https://kivy.org/docs/tutorials/pong.html)
+class Ball2(Widget): # sensor 2 
     pass
-class Ball3(Widget): # sensor 3 (see kivy tutorials: kivy https://kivy.org/docs/tutorials/pong.html)
+class Ball3(Widget): # sensor 3 
     pass
 
-# Creating the game class (to understand "ObjectProperty", see kivy tutorials: kivy https://kivy.org/docs/tutorials/pong.html)
+# Creating the game class
 
 class Game(Widget):
 
@@ -165,7 +165,7 @@ class Game(Widget):
         # Updating the last distance from the car to the goal
         last_distance = distance
 
-# Painting for graphic interface (see kivy tutorials: https://kivy.org/docs/tutorials/firstwidget.html)
+# Painting for graphic interface 
 
 class MyPaintWidget(Widget):
 
@@ -195,7 +195,7 @@ class MyPaintWidget(Widget):
             last_x = x
             last_y = y
 
-# API and switches interface (see kivy tutorials: https://kivy.org/docs/tutorials/pong.html)
+# API and switches interface 
 
 class CarApp(App):
 

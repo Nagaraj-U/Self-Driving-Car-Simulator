@@ -1,5 +1,7 @@
-# Self_Driving_Car
-self driving car which learns itself how to drive through reinforcement learning using neural networks.
+# Self driving car
+
+Train an end-to-end deep learning model that would let a car drive by itself around the track in a driving simulator
+
 
 #Training of car is done by drawing some sand over the screen ( which acts as a obstacle ).
 

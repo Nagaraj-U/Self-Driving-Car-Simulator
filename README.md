@@ -1,6 +1,7 @@
 # Self driving car
 
-    Training an end-to-end deep learning model that would let a car drive by itself around the track in a driving simulator
+    Training an end-to-end deep learning model that would let a car drive by itself around the track
+    in a driving simulator
 <hr></hr>
 
 <ul>

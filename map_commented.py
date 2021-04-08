@@ -6,6 +6,7 @@ from random import random, randint
 import matplotlib.pyplot as plt
 import time
 
+
 # Importing the Kivy packages
 from kivy.app import App
 from kivy.uix.widget import Widget
